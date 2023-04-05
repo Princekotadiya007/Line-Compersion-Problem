@@ -17,9 +17,12 @@ namespace LineCompersionProblem
             this.pointY2 = pointY2;
         }
 
+        // UC 2 use Return length
+        // use double
         public double Length()
         {
             double length = Math.Sqrt(Math.Pow((poIntX2 - PointX1), 2) + Math.Pow((pointY2 - _pointY1), 2));
+            Console.WriteLine(length);
             return length;
         }
     }
